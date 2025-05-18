@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int firstNumber=25;
+	printf("First number:%d\n",firstNumber);
+	
+	int secondNumber=firstNumber;
+	printf("Second number:%d\n",secondNumber);
+	
+	return 0;
+}

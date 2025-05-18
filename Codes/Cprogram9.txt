@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+	int number1,number2;
+    printf("Enter number1:");
+    scanf("%d", &number1);
+	
+	printf("Enter number2:");
+    scanf("%d", &number2);
+	
+	printf("Addition(number1+number2)=%d\n",number1+number2);
+	printf("Substraction(number1-number2)=%d\n",number1-number2);
+	printf("Multiplication(number1*number2)=%d\n",number1*number2);
+	
+	if (number2 != 0) {
+        printf("Division (number1/number2)=%d\n", number1/number2);
+        printf("Modulus (number1%%number2)=%d\n",number1%number2);
+    } else {
+        printf("Division and Modulus not allowed (number1 is zero).\n");
+    }
+	
+	return 0;
+}

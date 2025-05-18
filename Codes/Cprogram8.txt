@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+
+        int age;
+        printf("Enter your age:");
+        scanf("%d", &age);
+        printf("Age=%d\n",age);
+		
+		double number;
+		printf("Enter number:");
+        scanf("%lf", &number);
+        printf("Your double input is:%.2lf\n",number);
+		
+		char character;
+		printf("Enter a character:");
+        scanf(" %c", &character);
+        printf("Character is: %c\n",character);
+
+        return 0;
+}
